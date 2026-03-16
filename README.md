@@ -22,11 +22,55 @@ CampOS combines expressive visual design with practical performance:
 3. **Practical defaults**: office suite + browser out of the box.
 4. **Delightful feedback**: errors and system messages should feel polished and human.
 
-## Repository Layout
 
-- `spec/desktop-profile.md`: XFCE app and panel defaults.
-- `spec/theme-system.md`: Wallpaper, splash, icon, cursor, and message style specification.
-- `spec/hardware-target.md`: Baseline/recommended hardware profile and optimization strategy.
+# Theme System Specification
+
+## Visual Direction
+
+CampOS visual language should balance glam styling with usability.
+
+## Wallpaper + Splash
+
+- **Wallpaper**: glam-inspired color palette and textured gradients.
+- **Boot splash**: matching brand palette with minimal animation for low-end GPUs.
+- **Login screen**: simplified variant to reduce rendering cost.
+
+## Icon Theme (Deluxe Stationery)
+
+Icon motifs should borrow from stationery aesthetics:
+
+- Polished paper textures
+- Metallic accents
+- Label/tab shapes for folders
+
+The theme must preserve standard icon naming to maintain compatibility.
+
+## Cursor Theme (Press-On Fingernail Inspired)
+
+- Shape language: rounded, glossy, high-contrast edge.
+- Keep hotspot alignment exact to avoid click precision issues.
+- Provide fallback to a classic cursor pack if theme fails to load.
+
+## Error and Warning Styling
+
+Error dialogs should be visually polished but clear:
+
+- Use concise, direct language.
+- Add personality without being vague.
+- Preserve technical details behind an expandable "Details" section.
+
+### Example Error Tone
+
+> "Oops, glamour malfunction. Your document couldn't be saved yet. Check disk space and try again."
+
+## Performance Constraints
+
+All theme assets should optimize for early-2000s systems:
+
+- Prefer static assets over expensive effects.
+- Minimize alpha-heavy compositing.
+- Keep icon and cursor frame counts low.
+- 
 
 ## Next Steps
 
