@@ -97,6 +97,9 @@ Early-2000s desktop and laptop hardware.
 - Use lightweight services and avoid background bloat.
 - Favor compressed but low-overhead assets.
 - Ensure office + browser workflows remain functional under memory pressure.
+- NoScript policy: all Javascript is disabled by default.
+- Topsites Start Page for Print-friendly web pages, PDF forms and microbrowser WAP pages.
+- LibreOffice saves files in .docx .pptx .xlsx file formats as a default option.
 - 
 ## Next Steps
 
