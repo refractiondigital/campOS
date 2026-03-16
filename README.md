@@ -70,8 +70,34 @@ All theme assets should optimize for early-2000s systems:
 - Prefer static assets over expensive effects.
 - Minimize alpha-heavy compositing.
 - Keep icon and cursor frame counts low.
+- Avoid Transparency PNG effects.
 - 
+# Hardware Target Specification
 
+## Primary Target Class
+
+Early-2000s desktop and laptop hardware.
+
+## Baseline Profile
+
+- CPU: Single-core x86 (Pentium 4 / Athlon XP era)
+- RAM: 512 MB minimum
+- Storage: IDE HDD
+- GPU: Integrated graphics with limited acceleration
+
+## Recommended Profile
+
+- CPU: Dual-core x86
+- RAM: 1-2 GB
+- Storage: SSD via adapter or fast HDD
+
+## Optimization Strategy
+
+- Keep desktop effects optional and off by default.
+- Use lightweight services and avoid background bloat.
+- Favor compressed but low-overhead assets.
+- Ensure office + browser workflows remain functional under memory pressure.
+- 
 ## Next Steps
 
 - Build and package an XFCE profile seed.
