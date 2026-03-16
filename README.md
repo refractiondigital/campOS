@@ -100,6 +100,12 @@ Early-2000s desktop and laptop hardware.
 - NoScript policy: all Javascript is disabled by default.
 - Topsites Start Page for Print-friendly web pages, PDF forms and microbrowser WAP pages.
 - LibreOffice saves files in .docx .pptx .xlsx file formats as a default option.
+
+## Distribution Strategy
+- iso file with bootable CampOS desktop environment, with optional installer. Installer can install the CampOS to internal storage or external USB storage. iso bootable CD/DVD.
+- Software Wizard to create Theme Packs for branded distributions.
+- The theme pack could be based on specific Drag Queen Personalities, with their signature look and seasonal makeup color pallette promo.
+- The theme pack could be based on a specific desk, with the appearance of the desk finishes and standard forms in LibreOffice.
 - 
 ## Next Steps
 
